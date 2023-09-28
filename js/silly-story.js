@@ -57,6 +57,7 @@ function result() {
     (with =). You might need to do one of the above replacements twice! */
 
     newStory = newStory.replace(":insertx:", xItem);
+    newStory = newStory.replace(":insertx:", xItem);
     newStory = newStory.replace(":inserty:", yItem);
     newStory = newStory.replace(":insertz:", zItem);
 
